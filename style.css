@@ -1,0 +1,239 @@
+/*==================
+ HEADER SECTION
+====================*/
+#mu-header {
+  background-color: #f8f8f8;
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-header .mu-header-area {
+  display: inline;
+  float: left;
+  padding: 10px 0;
+  width: 100%;
+}
+#mu-header .mu-header-area .mu-header-top-left {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-header .mu-header-area .mu-header-top-left .mu-top-email {
+  display: inline;
+  float: left;
+  font-size: 14px;
+}
+#mu-header .mu-header-area .mu-header-top-left .mu-top-email i {
+  margin-right: 5px;
+}
+#mu-header .mu-header-area .mu-header-top-left .mu-top-phone {
+  border-left: 1px solid #ddd;
+  display: inline;
+  font-size: 14px;
+  float: left;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+#mu-header .mu-header-area .mu-header-top-left .mu-top-phone i {
+  margin-right: 5px;
+}
+#mu-header .mu-header-area .mu-header-top-right {
+  display: inline;
+  float: left;
+  text-align: right;
+  width: 100%;
+}
+#mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav {
+  display: inline-block;
+}
+#mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li {
+  display: inline-block;
+}
+#mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 8px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+
+
+/* ALL SECTION */
+
+.logo-part{
+    width: 40%;
+}
+.top-part{
+    background-color:#F1FFF0;
+
+}
+.manu-bar{
+    margin-right: 40px;
+    padding: 0 30px;
+}
+
+.main-img{
+    width: 80%;
+    
+}
+
+/* button*/
+
+.myButton1 {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+/*button all*/
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.myButton2 {
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton3 {
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color: #77b55a;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton3:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+/* BUTTON */
+
+.img-margin{padding: 50px 40px;}
+h6{color: red;}
+
+.scend-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card{
+    border: none;
+    background-color:#F1FFF0;
+    
+}
+.box{
+    box-shadow: 10px 10px 10px gray;
+    text-align: center;
+}
+.box :active{
+    box-shadow: 10px 10px 10px gray;
+    text-align: center;
+}
+.model-img{
+    width: 40%;
+}
+.man{width: 50%;
+    margin-left: 70px;
+}
+.footer-center p{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 20px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
